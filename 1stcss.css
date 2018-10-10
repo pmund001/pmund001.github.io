@@ -1,0 +1,93 @@
+* {
+   border: 1px solid red !important;
+   //display: flex; //grid; // shows the boxes
+}
+ul, h3 {
+  font-size: 20px;
+}
+p.center, h1, h2, body{
+  text-align:center;
+  border-radius: 5px;
+}
+header{
+  overflow: hidden;
+}
+nav {
+  float: right;
+}
+nav li {
+  display: inline;
+}
+body {
+  font-family: 'Pacifico', serif;
+  background-color: darkblue;
+  color: white;
+  width: auto;
+  padding: 20px;
+  font-size: 1.7em; //    40px;
+  line-height: 2.0;
+    }
+h1 {
+  padding: 0px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  font-size: 100px;
+  color: orange;
+  text-shadow: 6px 9px red;
+}
+h2 {
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 60px;
+  color: #00FF00;
+}
+h3 {
+  float: left;
+  margin-top: .2em;
+  background-color: white;
+  color:black;
+  border-radius: 10px;
+  padding: 0px 2px;
+}
+a {
+  color: blue;
+  background-color: yellow;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 1px;
+   }
+ a:hover{
+   background-color: green;
+ }
+ a[href^="mailto"]:hover:after {
+   content: " - pmund001@gmail.com" ;
+ }
+#green1 {
+  color: #00FF00;
+}
+.btnCircle {
+  background-color: yellow;
+  border-color: red;
+  color: blue;
+  font-size: 150%;
+  border-radius: 15px 30px;
+}
+.btnSquare {
+  background-color: yellow;
+  border-radius: 15px 30px;
+}
+#AboutMe {
+  background: url("https://source.unsplash.com/_4Ib-a8g9aA/1600x900") no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+#Portfolio {
+  background: url("https://source.unsplash.com/VNseEaTt9w4/1600x900") no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+#Contact {
+  background: url("https://source.unsplash.com/DGOmU8oO-rM/1600x900") no-repeat;
+  background-size: cover;
+  height: 900px;
+}
